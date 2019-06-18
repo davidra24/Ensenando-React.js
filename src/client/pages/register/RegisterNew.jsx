@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import logo from '../../images/logo.png';
+import Header from '../../components/header/Header';
 import RegisterForm from '../../components/register/RegisterForm';
 import Register from '../../components/register/Register';
 
@@ -45,13 +45,7 @@ class RegisterNew extends Component {
   render() {
     return (
       <Fragment>
-        <div className="BadgeNew__hero">
-          <img
-            className="BadgeNew_hero-image img-fluid"
-            src={logo}
-            alt="Logo"
-          />
-        </div>
+        <Header />
         <div className="container">
           <div className="row">
             <div className="col-6">
